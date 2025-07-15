@@ -1,11 +1,11 @@
 # Finite_State_Automata
 FSA Simulation for a 2D matrix, similar to Conway's Game of Life. Supports serial and parallel execution.
 
-Rules:
-If alive ('O')
+# Rules:
+- If alive ('O')
   Survives only if the number of alive neighbors is prime
   Otherwise it dies ('.').
-If dead ('.')
+- If dead ('.')
   Becomes alive if the neighbor count is non‑zero and even
   Otherwise remains dead.
 
