@@ -10,5 +10,5 @@ FSA Simulation for a 2D matrix, similar to Conway's Game of Life. Supports seria
 - Otherwise remains dead.
 
 # Example usage:
-- python3 FSA.py -i time_step_0.dat -o my_time_step_100.dat
-- python3 FSA.py -i time_step_0.dat -o my_time_step_100.dat -p 4
+- Serial execution: python3 FSA.py -i time_step_0.dat -o my_time_step_100.dat
+- Parallel execution: python3 FSA.py -i time_step_0.dat -o my_time_step_100.dat -p 4
